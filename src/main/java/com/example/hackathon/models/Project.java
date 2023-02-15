@@ -3,7 +3,7 @@ package com.example.hackathon.models;
 import lombok.Data;
 
 @Data
-public class project {
+public class Project {
     String name;
     String logo;
     Scope projectScope;
