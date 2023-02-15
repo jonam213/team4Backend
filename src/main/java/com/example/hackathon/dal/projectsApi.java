@@ -21,6 +21,7 @@ public class projectsApi {
     @RequestMapping("/getblabla")
     @CrossOrigin("*")
     public String bla(){
+        System.out.println("wini8200");
         return "blalbalb";
     }
     @GetMapping("/getProjectByScope")
